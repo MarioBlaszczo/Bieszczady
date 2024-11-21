@@ -1,0 +1,101 @@
+<html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przepis na szarlotkê</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: darkred;
+        }
+        h2 {
+            color: darkgreen;
+        }
+        .highlight {
+            color: blue;
+            font-size: 18px;
+        }
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: lightgray;
+        }
+        .merged {
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Przepis na szarlotkÄ™</h1>
+
+    <p><strong>Szarlotka</strong> to klasyczne <em>ciasto</em>, które zachwyca swoim smakiem i prostot¹ wykonania.</p>
+
+    <h2>Sk³adniki</h2>
+    <ul style="list-style-type: square;">
+        <li>1 kg jab³ek</li>
+        <li>3 szklanki m¹ki</li>
+        <li>200 g mas³a</li>
+        <li>1 szklanka cukru</li>
+        <li>2 ³y¿eczki proszku do pieczenia</li>
+        <li>2 jajka</li>
+    </ul>
+
+    <h2>Sposób przygotowania</h2>
+    <ol type>
+        <li>Obierz jab³ka, usuñ gniazda nasienne i pokrój w plasterki.</li>
+        <li>Wymieszaj m¹kê, proszek do pieczenia i cukier.</li>
+        <li>Dodaj mas³o oraz jajka, zagnieæ ciasto.</li>
+        <li>Po³owê ciasta rozwa³kuj i wy³ó¿ nim formê.</li>
+        <li>U³ó¿ jab³ka na cieœcie, posyp cynamonem.</li>
+        <li>Przykryj drug¹ warstw¹ ciasta i piecz w 180°C przez 45 minut.</li>
+    </ol>
+
+    <h2>Wskazówki</h2>
+    <p>Najlepiej u¿yæ <u>kwaœnych jab³ek</u>, takich jak <span class="highlight">antonówki</span> lub <span style="font-family: 'Courier New', Courier; font-size: 16px;">szara reneta</span>.</p>
+
+    <hr>
+
+    <h2>Przyk³adowa tabela sk³adników</h2>
+    <table>
+        <tr>
+            <th>Sk³adnik</th>
+            <th>Iloœæ</th>
+            <th>Uwagi</th>
+        </tr>
+        <tr>
+            <td>Jab³ka</td>
+            <td>1 kg</td>
+            <td>Antonówki</td>
+        </tr>
+        <tr class="merged">
+            <td colspan="2">Ciasto (m¹ka, mas³o, cukier, proszek do pieczenia, jajka)</td>
+            <td>Do przygotowania spodu i wierzchu</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Cukier</td>
+            <td>1 szklanka</td>
+            <td>Do ciasta</td>
+        </tr>
+        <tr>
+            <td>2 ³y¿ki</td>
+            <td>Do jab³ek</td>
+        </tr>
+    </table>
+
+</body>
+</html>
